@@ -4,3 +4,5 @@ services:
   app:
     build: .
     container_name: mightcore_pythagora_ai
+    volumes:
+      - .:/usr/src/app  # Mount the current directory to /usr/src/app in the containere
